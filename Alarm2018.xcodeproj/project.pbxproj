@@ -12,6 +12,8 @@
 		FB1DF0EC2005E25B005E0B66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1DF0EA2005E25B005E0B66 /* Main.storyboard */; };
 		FB1DF0EE2005E25B005E0B66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1DF0ED2005E25B005E0B66 /* Assets.xcassets */; };
 		FB1DF0F12005E25B005E0B66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1DF0EF2005E25B005E0B66 /* LaunchScreen.storyboard */; };
+		FB1DF0F92005E26A005E0B66 /* CurrentTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DF0F82005E26A005E0B66 /* CurrentTime.swift */; };
+		FB1DF0FB2005E27C005E0B66 /* AlarmSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DF0FA2005E27C005E0B66 /* AlarmSetting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FB1DF0ED2005E25B005E0B66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB1DF0F02005E25B005E0B66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB1DF0F22005E25B005E0B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB1DF0F82005E26A005E0B66 /* CurrentTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTime.swift; sourceTree = "<group>"; };
+		FB1DF0FA2005E27C005E0B66 /* AlarmSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSetting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				FB1DF0E62005E25B005E0B66 /* AppDelegate.swift */,
 				FB1DF0E82005E25B005E0B66 /* ViewController.swift */,
+				FB1DF0F82005E26A005E0B66 /* CurrentTime.swift */,
+				FB1DF0FA2005E27C005E0B66 /* AlarmSetting.swift */,
 				FB1DF0EA2005E25B005E0B66 /* Main.storyboard */,
 				FB1DF0ED2005E25B005E0B66 /* Assets.xcassets */,
 				FB1DF0EF2005E25B005E0B66 /* LaunchScreen.storyboard */,
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB1DF0FB2005E27C005E0B66 /* AlarmSetting.swift in Sources */,
+				FB1DF0F92005E26A005E0B66 /* CurrentTime.swift in Sources */,
 				FB1DF0E92005E25B005E0B66 /* ViewController.swift in Sources */,
 				FB1DF0E72005E25B005E0B66 /* AppDelegate.swift in Sources */,
 			);
