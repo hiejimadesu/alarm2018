@@ -10,7 +10,7 @@
  使い方としては、現在の時間（時、分、秒）を何らかの変数に取り込みたいときは、
  var currentHour = CurrentTime.getCurrentHour()
  とすればいいとおもいます。上では時を表していますが、分の場合は下のメゾッドを
- getCurrentMinute()と、秒の場合はgetCurrentSecond()とつかってください。
+ getCurrentMinute()と、秒の場合はgetCurrentSecond()とつかってください。。
 */
 
 import Foundation
